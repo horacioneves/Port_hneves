@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Programador Web</title>
+  <link rel="stylesheet" href="CSS/Style.css" />
+</head>
+
+<body>
+  <header class="header" id="topo">
+    <nav class="nav">
+      <a class="logo" href="#topo">Meu Portfólio</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+
+      <ul class="menu" id="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <p class="tag">Programador Web</p>
+        <h1>Olá, eu sou <span class="highlight">Horácio Neves</span></h1>
+        <p class="subtitle">
+          Construo interfaces modernas com <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img class="avatar" src="Photo/IMG_3960.jpg" alt="Foto de perfil (opcional)" onerror="this.style.display='none'">
+        <div class="hero-card-info">
+          <p><strong>Local:</strong> Ícolo e Bengo, Angola</p>
+          <p><strong>Foco:</strong> Programador Web</p>
+          <p><strong>Status:</strong> Disponível</p>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="sobre">
+      <h2>Sobre mim</h2>
+      <p>
+        Sou programador web com foco em criar sites rápidos, responsivos e fáceis de usar.<br>
+        Gosto de transformar ideias em páginas funcionais e bonitas.<br>
+        Futuramente pretendo me tornar num programador Full Stack e desejo trabalho com Banco de Dados.<br>
+         Atualmente trabalho com HTML, CSS, JavaScript e estou evoluindo em frameworks e boas práticas.
+      </p>
+      
+    </section>
+
+     <section class="section" id="formacao">
+      <h2>Formação Academica</h2>
+      <p>
+       Ensino Médio concluído na área de Técnico Informática, no Instituto Médio Técnico São Benedito(I.M.T.S.B).<br>
+       Curso de Programação Web - HTML, CSS, JavaScript e Base de Dados - CFTEL.<br>
+       Estágio Estudantil na área de Informática, com foco em desenvolvimento web - KivembaSoft.<br>
+       Estudante de Engenharia Informática na Universidade Técnica de Angola (UTANGA) - Atualmente.
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>HTML</h3>
+          <p>Estrutura semântica, acessibilidade e SEO básico.</p>
+        </article>
+
+        <article class="card">
+          <h3>CSS</h3>
+          <p>Responsividade, Flexbox, Grid, animações e layout moderno.</p>
+        </article>
+
+        <article class="card">
+          <h3>JavaScript</h3>
+          <p>Interações, DOM, validação de formulários e consumo de APIs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="section-head">
+        <h2>Projetos</h2>
+        
+      </div>
+
+      <div class="grid projects" id="projects">
+        <article class="card project" data-featured="true">
+          <h3>Landing Page</h3>
+          <p>Uma página de apresentação responsiva para negócios.</p>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noreferrer">Código</a>
+          </div>
+        </article>
+
+        <article class="card project" data-featured="false">
+          <h3>Lista de Tarefas</h3>
+          <p>To-do list com salvar no navegador (LocalStorage).</p>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noreferrer">Código</a>
+          </div>
+        </article>
+
+        <article class="card project" data-featured="true">
+          <h3>Clima (API)</h3>
+          <p>Consulta de clima usando uma API pública.</p>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noreferrer">Código</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+      <section class="section" id="contato">
+      <h2>Contato</h2>
+
+      <div class="social">
+        <a href="https://github.com/horacioneves" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/horacioneves/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>©<span ></span> Horácio Neves — Portfólio</p>
+    <a href="#topo" class="to-top">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="JS/efect.js"></script>
+</body>
+</html>
